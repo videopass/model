@@ -1,0 +1,17 @@
+{
+	"name": "@videopass/model",
+	"version": "0.0.44",
+	"description": "videopass model",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"deploy": "rm -r ./lib &&  tsc && bump && npm publish --access public"
+	},
+	"author": "videopass",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^4.4.2",
+		"version-bump-prompt": "^6.1.0"
+	}
+}
